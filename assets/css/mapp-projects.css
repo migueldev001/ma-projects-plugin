@@ -1,0 +1,77 @@
+.mapp-project h2 {
+    font-weight: 800;
+    color: #0f172a;
+    text-transform: initial;
+}
+
+a.mapp-form-group-icon {
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.mapp-form-group{
+    position: relative;
+}
+
+.mapp-form-group input.form-control {
+    padding: 10px 20px 10px 55px;
+    height: 43px;
+    line-height: 43px;
+    border-radius: 12px;
+    background: #F8F8F8;
+    border: 1px solid #e6e6e6;
+}
+
+.mapp-project {
+    padding: 50px;
+    border-radius: 12px;
+    color: #64748b;
+}
+
+.mapp-projects a.btn {
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-weight: 800;
+}
+
+.mapp-projects a.btn.btn-outline {
+    border: 1px solid;
+    margin: 0 5px;
+}
+
+.mapp-projects a.btn.btn-outline:hover{
+    border-color: #393939;
+    color: #393939;
+}
+
+.mapp-projects a.btn.btn-primary {
+    --bs-btn-bg: #0f172a;
+    --bs-btn-border-color: #0f172a;
+    --bs-btn-active-bg: #0f172a;
+    --bs-btn-active-border-color: #0f172a;
+    --bs-btn-hover-bg: #393939;
+    --bs-btn-hover-border-color: #393939;
+}
+
+.mapp-projects a.btn.btn-primary:visited{
+    color: #fff;
+}
+
+img.mapp-btn-loader {
+    width: 16px;
+    margin: 0 0 0 3px;
+    display: none;
+}
+
+#mapp-previous-page img.mapp-btn-loader {
+    margin: 0 3px 0 0;
+}
+
+.mapp-form-group-icon img.mapp-btn-loader {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+}
