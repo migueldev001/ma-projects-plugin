@@ -14,4 +14,4 @@ Se incluye un shortcode que muestra los proyectos acompañado de un buscador. El
 [mapp_posts]
 ```
 
-/screenshot.png
+![Screenshot](screenshot.png)
